@@ -23,7 +23,8 @@ namespace Tasklist.Models
 
         [DisplayName("タスクの内容")]
         [DataType(DataType.MultilineText)] // 追加
-        public string Task { get; set; }
+        [Required(ErrorMessage ="内容を入力してください")]//未入力チェック
+        public string Content { get; set; }
 
 
    

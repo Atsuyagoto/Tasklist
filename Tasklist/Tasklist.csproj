@@ -147,6 +147,14 @@
     <Compile Include="Migrations\202005260544581_AddVaridation2.Designer.cs">
       <DependentUpon>202005260544581_AddVaridation2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005260614589_AddVaridation3.cs" />
+    <Compile Include="Migrations\202005260614589_AddVaridation3.Designer.cs">
+      <DependentUpon>202005260614589_AddVaridation3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005260642185_AddVaridation4.cs" />
+    <Compile Include="Migrations\202005260642185_AddVaridation4.Designer.cs">
+      <DependentUpon>202005260642185_AddVaridation4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Tasks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -218,6 +226,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005260544581_AddVaridation2.resx">
       <DependentUpon>202005260544581_AddVaridation2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005260614589_AddVaridation3.resx">
+      <DependentUpon>202005260614589_AddVaridation3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005260642185_AddVaridation4.resx">
+      <DependentUpon>202005260642185_AddVaridation4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
