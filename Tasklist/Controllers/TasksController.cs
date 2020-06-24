@@ -81,7 +81,7 @@ namespace Tasklist.Controllers
         // 詳細については、https://go.microsoft.com/fwlink/?LinkId=317598 を参照してください。
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,CreatedAt,UpdatedAt,Task")] Tasks tasks)
+        public ActionResult Edit([Bind(Include = "Id,CreatedAt,UpdatedAt,Content")] Tasks tasks)
         {
             if (ModelState.IsValid)
             {
